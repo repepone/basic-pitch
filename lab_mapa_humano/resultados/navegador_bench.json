@@ -1,0 +1,18 @@
+{
+ "segundos_audio_por_ventana": 1.6400907029478458,
+ "onnx_wasm_1hilo": {
+  "carga_ms": 781,
+  "mediana_ms_por_ventana": 93.2,
+  "veces_tiempo_real": 17.6
+ },
+ "tfjs_cpu": {
+  "carga_ms": 29,
+  "mediana_ms_por_ventana": 3810,
+  "veces_tiempo_real": 0.4
+ },
+ "tfjs_webgl": {
+  "carga_ms": 27,
+  "mediana_ms_por_ventana": 3395.8,
+  "veces_tiempo_real": 0.5
+ }
+}
