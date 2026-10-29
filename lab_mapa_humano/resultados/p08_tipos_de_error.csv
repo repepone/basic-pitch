@@ -1,0 +1,20 @@
+conjunto,pieza,n_ref,n_est,inv_armonico,inv_re-ataque misma nota,inv_otro,perd_en acorde,perd_nota sola
+piano real (MAESTRO),bach_prel860,611,403,43,3,1,171,84
+piano real (MAESTRO),bach_fuga854,734,655,50,42,18,147,42
+piano real (MAESTRO),chopin_et10_2,1391,468,37,4,6,592,378
+piano real (MAESTRO),schubert_mm3,1034,931,91,23,58,241,34
+piano real (MAESTRO),haydn_31_1,1609,1337,114,65,51,241,261
+piano real (MAESTRO),mozart_12_1,2506,2243,230,30,13,361,175
+piano real (MAESTRO),rach_23_6,1248,1365,187,85,143,204,94
+piano real (MAESTRO),debussy_reflets,2019,2126,410,145,387,444,391
+piano real (MAESTRO),TOTAL,11152,9528,1162,397,677,2401,1459
+"sintetizado, seco",piano (sintetizado),2423,2863,612,85,32,287,2
+"sintetizado, seco",solo: flauta,543,592,55,122,0,0,128
+"sintetizado, seco",solo: clarinete,543,1661,865,27,258,0,32
+"sintetizado, seco",solo: violín,543,778,1,408,1,0,175
+"sintetizado, seco",solo: violonchelo,651,829,6,364,1,0,193
+"sintetizado, seco",solo: trompeta,543,543,0,0,0,0,0
+"sintetizado, seco",cuerda: cuarteto,2423,4160,1271,1549,4,1013,74
+"sintetizado, seco",cuerda: orquesta (String Ens.),2423,4934,1736,2383,32,1504,136
+"sintetizado, seco",conjunto: maderas,2423,3444,1142,300,210,594,37
+"sintetizado, seco","conjunto: mixto (vl, cl, trompa, vc)",2423,3535,1266,932,6,1003,89

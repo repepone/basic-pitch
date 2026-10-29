@@ -1,0 +1,57 @@
+{
+ "mapeo_lib_menos_exacto_ms": {
+  "min": -8.339229024940664,
+  "max": 10.503854875310026,
+  "media": 1.0953488372096518,
+  "fotograma_ms": 11.609977324263038
+ },
+ "tonos_sinteticos": {
+  "n_ref": 600,
+  "n_est": 869,
+  "casadas": 600,
+  "perdidas": 0,
+  "inventadas": 269,
+  "pct_perdidas": 0.0,
+  "pct_inventadas": 30.95512082853855,
+  "mediana_ms": -2.3095238095152126,
+  "p25_ms": -5.836734693880352,
+  "p75_ms": 1.1162131519260043,
+  "mediana_abs_ms": 3.942857142853029,
+  "p90_abs_ms": 9.816598639448417,
+  "pct_abs_le_20ms": 100.0
+ },
+ "tonos_error_por_posicion_en_ventana": {
+  "0.00-0.33": {
+   "n": 202,
+   "mediana_ms": -0.4129251700688563
+  },
+  "0.33-0.67": {
+   "n": 197,
+   "mediana_ms": -2.4226757369660845
+  },
+  "0.67-1.00": {
+   "n": 201,
+   "mediana_ms": -4.567800453514792
+  }
+ },
+ "tonos_desv_tipica_ms": 5.358437553004021,
+ "tonos_rango_ms": [
+  -15.785941043105822,
+  12.564172335601143
+ ],
+ "tonos_con_mapeo_exacto": {
+  "n_ref": 600,
+  "n_est": 869,
+  "casadas": 600,
+  "perdidas": 0,
+  "inventadas": 269,
+  "pct_perdidas": 0.0,
+  "pct_inventadas": 30.95512082853855,
+  "mediana_ms": -3.4807256235742656,
+  "p25_ms": -6.247165532878185,
+  "p75_ms": -0.3401360544152965,
+  "mediana_abs_ms": 3.8095238095259276,
+  "p90_abs_ms": 8.464852607714592,
+  "pct_abs_le_20ms": 100.0
+ }
+}

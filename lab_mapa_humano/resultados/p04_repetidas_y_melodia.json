@@ -1,0 +1,260 @@
+{
+ "repetidas": [
+  {
+   "instrumento": "piano",
+   "ioi_ms": 60,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 23,
+   "pct_perdidas": 68.1
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 60,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 38,
+   "pct_perdidas": 47.2
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 80,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 35,
+   "pct_perdidas": 51.4
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 80,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 68,
+   "pct_perdidas": 5.6
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 100,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 36,
+   "pct_perdidas": 50.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 100,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 120,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 39,
+   "pct_perdidas": 45.8
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 120,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 140,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 64,
+   "pct_perdidas": 11.1
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 140,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 160,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 160,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 200,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "piano",
+   "ioi_ms": 200,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 72,
+   "pct_perdidas": 0.0
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 60,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 10,
+   "pct_perdidas": 86.1
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 60,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 13,
+   "pct_perdidas": 81.9
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 80,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 16,
+   "pct_perdidas": 77.8
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 80,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 27,
+   "pct_perdidas": 62.5
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 100,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 23,
+   "pct_perdidas": 68.1
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 100,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 29,
+   "pct_perdidas": 59.7
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 120,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 14,
+   "pct_perdidas": 80.6
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 120,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 21,
+   "pct_perdidas": 70.8
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 140,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 17,
+   "pct_perdidas": 76.4
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 140,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 17,
+   "pct_perdidas": 76.4
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 160,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 12,
+   "pct_perdidas": 83.3
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 160,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 12,
+   "pct_perdidas": 83.3
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 200,
+   "minimum_note_length_ms": 127.7,
+   "n_ref": 72,
+   "casadas": 26,
+   "pct_perdidas": 63.9
+  },
+  {
+   "instrumento": "violín",
+   "ioi_ms": 200,
+   "minimum_note_length_ms": 58.0,
+   "n_ref": 72,
+   "casadas": 30,
+   "pct_perdidas": 58.3
+  }
+ ],
+ "melodia_trick_piano_maestro": {
+  "si": {
+   "n_ref": 11152,
+   "n_est": 9528,
+   "casadas": 7292,
+   "perdidas": 3860,
+   "inventadas": 2236,
+   "pct_perdidas": 34.61262553802008,
+   "pct_inventadas": 23.467674223341728,
+   "mediana_ms": 1.187577949167462,
+   "p25_ms": -4.808035717360326,
+   "p75_ms": 7.235586729620991,
+   "mediana_abs_ms": 6.158035717817256,
+   "p90_abs_ms": 17.054902211164883,
+   "pct_abs_le_20ms": 92.9786066922655
+  },
+  "no": {
+   "n_ref": 11152,
+   "n_est": 8562,
+   "casadas": 6988,
+   "perdidas": 4164,
+   "inventadas": 1574,
+   "pct_perdidas": 37.33859397417503,
+   "pct_inventadas": 18.383555244101846,
+   "mediana_ms": 1.5271967167791445,
+   "p25_ms": -4.1810126131167635,
+   "p75_ms": 7.395269985863706,
+   "mediana_abs_ms": 5.878755669982638,
+   "p90_abs_ms": 15.177738094644157,
+   "pct_abs_le_20ms": 95.649685174585
+  }
+ }
+}

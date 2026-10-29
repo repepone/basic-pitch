@@ -1,0 +1,10 @@
+id,rasgo,seg_s,n_ref,n_est,casadas,perdidas,inventadas,pct_perdidas,pct_inventadas,mediana_ms,p25_ms,p75_ms,mediana_abs_ms,p90_abs_ms,pct_abs_le_20ms
+bach_prel860,semicorcheas rápidas,47.90,611,403,356,255,47,41.73,11.66,4.42,-2.10,9.69,7.20,21.11,88.20
+bach_fuga854,contrapunto 3 voces,,734,655,545,189,110,25.75,16.79,1.93,-3.40,7.48,5.61,15.94,93.58
+chopin_et10_2,cromatismo rápido + acordes,,1391,468,421,970,47,69.73,10.04,2.93,-3.29,8.54,6.76,22.58,87.65
+schubert_mm3,melodía + acordes staccato,,1034,931,759,275,172,26.60,18.47,-1.04,-6.40,5.02,5.74,15.97,93.68
+haydn_31_1,adornos (trinos/apoyaturas),,1609,1337,1107,502,230,31.20,17.20,0.02,-5.15,4.89,4.97,13.75,95.30
+mozart_12_1,adornos + escalas,273.20,2506,2243,1970,536,273,21.39,12.17,5.15,-0.65,10.34,6.92,16.94,93.71
+rach_23_6,textura densa con pedal,,1248,1365,950,298,415,23.88,30.40,-1.95,-8.39,3.31,6.15,17.74,91.89
+debussy_reflets,pedal/resonancia larga,,2019,2126,1184,835,942,41.36,44.31,-1.26,-7.31,4.27,6.03,17.01,93.07
+TOTAL,,,11152,9528,7292,3860,2236,34.61,23.47,1.19,-4.81,7.24,6.16,17.05,92.98

@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>bench basic-pitch</title></head>
+<body>
+<script src="ort.wasm.min.js"></script>
+<script src="tf.min.js"></script>
+<script>
+// Mide sólo la inferencia del modelo (no el decodificado a notas) en ventanas de 43844 muestras,
+// cada una aporta 36164 muestras nuevas (1.640 s a 22050 Hz), igual que basic_pitch/inference.py.
+const N = 43844, NUEVO_S = 36164 / 22050, VENTANAS = 30, CALENT = 3;
+function audio() { const a = new Float32Array(N); for (let i = 0; i < N; i++) a[i] = (Math.random() - .5) * .2; return a; }
+async function benchOnnx() {
+  ort.env.wasm.numThreads = 1;
+  const t0 = performance.now();
+  const s = await ort.InferenceSession.create('nmp.onnx', { executionProviders: ['wasm'] });
+  const carga = performance.now() - t0;
+  const nombre = s.inputNames[0];
+  const tiempos = [];
+  for (let k = 0; k < VENTANAS + CALENT; k++) {
+    const x = new ort.Tensor('float32', audio(), [1, N, 1]);
+    const a = performance.now(); await s.run({ [nombre]: x }); const b = performance.now();
+    if (k >= CALENT) tiempos.push(b - a);
+  }
+  return { carga_ms: carga, tiempos };
+}
+async function benchTfjs(backend) {
+  await tf.setBackend(backend); await tf.ready();
+  const t0 = performance.now();
+  const m = await tf.loadGraphModel('tfjs_model/model.json');
+  const carga = performance.now() - t0;
+  const tiempos = [];
+  for (let k = 0; k < VENTANAS + CALENT; k++) {
+    const x = tf.tensor3d(audio(), [1, N, 1]);
+    const a = performance.now(); const y = m.execute(x); const arr = Array.isArray(y) ? y : [y];
+    await Promise.all(arr.map(t => t.data())); const b = performance.now();
+    tf.dispose([x, ...arr]);
+    if (k >= CALENT) tiempos.push(b - a);
+  }
+  return { carga_ms: carga, tiempos };
+}
+window.correr = async () => {
+  const r = {};
+  try { r.onnx_wasm_1hilo = await benchOnnx(); } catch (e) { r.onnx_wasm_1hilo = String(e); }
+  for (const be of ['cpu', 'webgl']) { try { r['tfjs_' + be] = await benchTfjs(be); } catch (e) { r['tfjs_' + be] = String(e); } }
+  r.segundos_audio_por_ventana = NUEVO_S;
+  return r;
+};
+</script></body></html>

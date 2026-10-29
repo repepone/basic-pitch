@@ -1,0 +1,10 @@
+pieza,n,pct_marcadas,errores_gt100ms,gruesos_marcados,no_marcadas,gruesos_no_marcados,pct_errores_gt100ms_marcados,pct_error_gt100ms_entre_no_marcadas
+bach_fuga854,731,10.12,26,25,657,1,96.15,0.15
+bach_prel860,602,20.27,31,28,480,3,90.32,0.62
+chopin_et10_2,1376,19.11,105,103,1113,2,98.10,0.18
+debussy_reflets,1859,38.73,304,278,1139,26,91.45,2.28
+haydn_31_1,1498,17.02,123,117,1243,6,95.12,0.48
+mozart_12_1,2448,10.13,85,83,2200,2,97.65,0.09
+rach_23_6,1220,32.30,106,99,826,7,93.40,0.85
+schubert_mm3,1022,15.66,65,60,862,5,92.31,0.58
+TOTAL,10756,20.79,845,793,8520,52,93.85,0.61
